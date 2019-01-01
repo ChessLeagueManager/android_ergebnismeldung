@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/settings_host_text"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:width="100dp"
+            android:ems="10"
+            android:hint="@string/settings_host"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:text="@string/settings_user_text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:ems="10"
+            android:hint="@string/settings_user"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_pas_text"
+            android:textSize="20sp"             
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:hint="@string/settings_pas"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/settings_https" 
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:text="@string/settings_https_ignore"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+		/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/settings_button_save" />
+
+		<Button
+		    android:id="@+id/button2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="15dp"
+		    android:layout_marginLeft="18dp"
+		    android:layout_marginRight="18dp"
+		    android:layout_marginTop="15dp"
+		    android:text="@string/settings_button_close" />
+
+    </LinearLayout>
+
+</ScrollView>

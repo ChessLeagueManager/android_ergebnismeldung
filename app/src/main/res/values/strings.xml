@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CLM 3</string>
+    <string name="title_activity_main">Submit match results</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_host">e.g.: example.org/joomla</string>
+    <string name="settings_user">e.g.: eExample</string>
+    <string name="settings_pas">e.g.: 159357</string>
+    <string name="settings_https">Enable encryption?</string>
+    <string name="settings_https_ignore">Allow all certificates?</string>
+    <string name="settings_host_text">Website</string>
+    <string name="settings_user_text">Username</string>
+    <string name="settings_pas_text">Password</string>
+    <string name="settings_button_save">Save</string>
+    <string name="settings_button_close">Close</string>
+    <string name="action_back">Back</string>
+    <string name="action_refresh">Update</string>
+    <string name="action_info">Version</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_config"><![CDATA[<html><title>Error</title><body>Error while loading the website. <br /> Please check the configuration.</body></html>]]></string>
+    <string name="error_cert"><![CDATA[<html><title>Error</title><body>The certificate of this website is not valid. <br /> Please edit the configuration or contact the webmaster.</body></html>]]></string>
+    <string name="error_config2"><![CDATA[<html><title>Error</title><body>Error while loading the website. <br /> Please check the configuration.</body></html>]]></string>
+    <string name="error_con"><![CDATA[<html><title>Error</title><body>No connection to the internet,<br /> please solve this problem.</body></html>]]></string>
+    <string name="error_ver"><![CDATA[<html><title>Error</title><body>The installed version is <b> %1$s </b> <br /><b>Changelog:</b><br /><br /> %2$s </body></html>]]></string>
+</resources>

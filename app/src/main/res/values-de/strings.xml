@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CLM 3</string>
+    <string name="title_activity_main">Ergebnismeldung</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="settings_host">bsp.: muster.org/joomla</string>
+    <string name="settings_user">bsp.: mMuster</string>
+    <string name="settings_pas">bsp.: 159357</string>
+    <string name="settings_https">Verschlüsselung verwenden?</string>
+    <string name="settings_https_ignore">Alle Zertifikate zulassen?</string>
+    <string name="settings_host_text">Website</string>
+    <string name="settings_user_text">Benutzername</string>
+    <string name="settings_pas_text">Passwort</string>
+    <string name="settings_button_save">Speichern</string>
+    <string name="settings_button_close">Zurück</string>
+    <string name="action_back">Zurück</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_info">Version</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="error_config"><![CDATA[<html><title>Fehler</title><body>Es ist beim Laden der Website ein Fehler aufgetreten. <br /> Bitte kontrollieren Sie die Konfiguration.</body></html>]]></string>
+    <string name="error_cert"><![CDATA[<html><title>Fehler</title><body>Die Website besitzt kein gültiges Zertifikat. <br /> Bitte korrigieren Sie die Konfiguration oder melden Sie diesen Fehler dem Webmaster.</body></html>]]></string>
+    <string name="error_config2"><![CDATA[<html><title>Fehler</title><body>Es ist beim Laden der Website ein Fehler aufgetreten. <br /> Bitte kontrollieren Sie die Konfiguration.</body></html>]]></string>
+    <string name="error_con"><![CDATA[<html><title>Fehler</title><body>Sie besitzen keine Internetverbindung,<br /> bitte korrigieren Sie dieses Problem.</body></html>]]></string>
+    <string name="error_ver"><![CDATA[<html><title>Fehler</title><body>Es ist die Version <b> %1$s </b> installiert.<br /><b>Changelog:</b><br /><br /> %2$s </body></html>]]></string>
+</resources>
