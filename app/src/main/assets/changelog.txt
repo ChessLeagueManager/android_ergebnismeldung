@@ -9,7 +9,7 @@ $ -> Language fix or change
 - -> Removed
 ! -> Note
 
-0.3.4 - [17-12-2018]
+1.0.0 - [20-01-2019]
 + Englische Übersetzung
 ^ Update Gradle/SDK
 
