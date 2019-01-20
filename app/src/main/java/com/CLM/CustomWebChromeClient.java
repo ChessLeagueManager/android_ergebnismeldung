@@ -1,4 +1,4 @@
-package com.ChessLeagueManager.main;
+package com.CLM;
 
 import java.io.ByteArrayOutputStream;
 
@@ -12,6 +12,8 @@ import android.util.Base64;
 import android.util.TypedValue;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+
+import com.CLM.R;
 
 public class CustomWebChromeClient extends WebChromeClient {
 

@@ -1,6 +1,6 @@
-package com.ChessLeagueManager.main;
+package com.CLM;
 
-import com.ChessLeagueManager.main.R;
+import com.CLM.R;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

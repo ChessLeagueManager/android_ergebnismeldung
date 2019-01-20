@@ -1,4 +1,4 @@
-package com.ChessLeagueManager.main;
+package com.CLM;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,6 +11,8 @@ import android.net.http.SslError;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.CLM.R;
 
 class CustomWebViewClient extends WebViewClient {
 

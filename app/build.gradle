@@ -3,10 +3,10 @@ android {
     compileSdkVersion 27
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId "com.ChessLeagueManager.main"
+        applicationId "com.CLM"
         minSdkVersion 14
         targetSdkVersion 27
-        versionCode 8
+        versionCode 1
         versionName '1.0.0'
     }
     buildTypes {
